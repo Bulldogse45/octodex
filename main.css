@@ -19,9 +19,9 @@
 }
 
 .image-number{
-  height: 41px;
+  padding-top:11px;
   display:inline-block;
-  <--vertical-align: middle;-->
+  vertical-align: bottom;
   color:#C0C0C0;
   font-weight: bold;
 
