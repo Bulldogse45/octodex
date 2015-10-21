@@ -21,7 +21,7 @@
 }
 
 .image-number{
-  padding-top:11px;
+  padding-top:8px;
   display:inline-block;
   vertical-align: bottom;
   color:#C0C0C0;
@@ -42,13 +42,18 @@
   width:100%;
 }
 .image-caption ul li img {
-  margin:3px;
+  margin-top:3px;
   border-radius: 5%;
 }
 
 .image-caption a, .image-caption span{
   display:inline-block;
   vertical-align: middle;
+  font-family: Helvetica, sans-serif;
+  font-size: .9em;
+}
+.image-caption span{
+  color:#999;
 }
 .image-caption a{
   text-decoration: none;
@@ -68,7 +73,7 @@
 
 }
 .authors li a img {
-  height:30px;
+  height:25px;
   width:auto;
   border-radius: 15%;
   float:right;
