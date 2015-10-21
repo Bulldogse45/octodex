@@ -6,6 +6,7 @@
 
 .octocat{
   width:30%;
+  min-width: 380px;
   display:inline-block;
   border-bottom: 1px #C0C0C0 solid;
   margin: 30px 0 0 2.2% ;
@@ -16,6 +17,7 @@
   height:auto;
   border-radius: 1%;
   border: 1px solid #c0c0c0;
+
 }
 
 .image-number{
@@ -29,6 +31,12 @@
 .image-caption{
   float:right;
 }
+.authors li a img {
+  height: 100%;
+  border-style: solid;
+  border-width: 7px 7px 0 7px;
+  border-color: #c0c0c0 transparent transparent transparent;
+}
 .image-caption ul li{
   display:inline-block;
   width:100%;
@@ -37,7 +45,6 @@
   margin:3px;
   border-radius: 5%;
 }
-
 
 .image-caption a, .image-caption span{
   display:inline-block;
@@ -55,6 +62,10 @@
   display:inline-block;
   margin: auto 0 auto 0;
 
+
+}
+.authors li a:last-child img{
+
 }
 .authors li a img {
   height:30px;
@@ -70,4 +81,3 @@
   margin: auto 0 auto 0;
   width:50%;
 }
-.authors li a
